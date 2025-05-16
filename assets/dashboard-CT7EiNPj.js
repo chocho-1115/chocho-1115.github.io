@@ -1,1 +1,0 @@
-import{_ as a,f as s,o as e,i as o,x as t,y as c,c as r}from"./index-Ck0U5vcY.js";const d={class:"dashboard-container"},n={class:"dashboard-text"},_={__name:"dashboard",setup(i){return(p,f)=>(e(),s("div",d,[o("div",n,"name: "+t(c(r).userInfo.name),1)]))}},l=a(_,[["__scopeId","data-v-e2d700b2"]]);export{l as default};
