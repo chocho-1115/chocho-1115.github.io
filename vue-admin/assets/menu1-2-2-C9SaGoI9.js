@@ -1,0 +1,1 @@
+import{_ as t,c as o,o as n,d as c}from"./index-GthB54wW.js";import{E as r}from"./el-alert-0XYjjzlO.js";const s={},a={style:{padding:"30px"}};function _(l,d){const e=r;return n(),o("div",a,[c(e,{closable:!1,title:"menu 1-2-2",type:"warning"})])}const p=t(s,[["render",_]]);export{p as default};
