@@ -1,1 +1,0 @@
-import{_ as n,c as t,o as a,e as s,d as c,f as _}from"./index-BfPOiW0Q.js";const r={},i={class:"about"},d={class:"svg-container"};function p(u,e){const o=_;return a(),t("div",i,[s("span",d,[c(o,{icon:"user"})]),e[0]||(e[0]=s("h1",null,"This is an about page",-1))])}const f=n(r,[["render",p],["__scopeId","data-v-9e9d1543"]]);export{f as default};
