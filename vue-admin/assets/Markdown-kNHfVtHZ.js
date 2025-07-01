@@ -1,1 +1,0 @@
-import{_ as a,c as n,o as c,e as t,t as r,x as d}from"./index-Bpij5Jh-.js";const _={class:"container"},i={class:"title"},l={class:"content"},p={__name:"Markdown",props:{title:{type:String,default:""}},setup(e){const s=e;return(o,u)=>(c(),n("div",_,[t("h2",i,r(s.title),1),t("div",l,[d(o.$slots,"default",{},void 0,!0)])]))}},h=a(p,[["__scopeId","data-v-dc8434db"]]);export{h as M};
