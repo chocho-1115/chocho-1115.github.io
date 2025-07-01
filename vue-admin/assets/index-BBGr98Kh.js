@@ -1,1 +1,0 @@
-import{_ as n,a7 as s,c,o as a,d as e,w as r}from"./index-C_TYRj8b.js";import{E as _}from"./el-alert-B1XSo8PY.js";const l={},i={style:{padding:"30px"}};function d(m,p){const t=s("RouterView"),o=_;return a(),c("div",i,[e(o,{closable:!1,title:"menu 1"},{default:r(()=>[e(t)]),_:1})])}const x=n(l,[["render",d]]);export{x as default};
