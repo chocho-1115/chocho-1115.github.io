@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as e,e as t,t as o,p as c,q as r}from"./index-DP9v7gnu.js";const d={class:"dashboard-container"},n={class:"dashboard-text"},_={__name:"dashboard",setup(p){return(i,h)=>(e(),s("div",d,[t("div",n,"name: "+o(c(r).userInfo.name),1)]))}},m=a(_,[["__scopeId","data-v-e2d700b2"]]);export{m as default};
