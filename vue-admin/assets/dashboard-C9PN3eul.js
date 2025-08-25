@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as e,e as t,t as o,k as c,m as r}from"./index-CVab-KZ5.js";const d={class:"dashboard-container"},n={class:"dashboard-text"},_={__name:"dashboard",setup(i){return(p,m)=>(e(),s("div",d,[t("div",n,"name: "+o(c(r).userInfo.name),1)]))}},l=a(_,[["__scopeId","data-v-e2d700b2"]]);export{l as default};
