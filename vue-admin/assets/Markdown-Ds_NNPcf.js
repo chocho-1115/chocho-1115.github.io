@@ -1,1 +1,0 @@
-import{_ as a,c as n,o as c,e as t,t as r,s as _}from"./index-BkyEDO2B.js";const d={class:"container"},i={class:"title"},l={class:"content"},p={__name:"Markdown",props:{title:{type:String,default:""}},setup(e){const s=e;return(o,u)=>(c(),n("div",d,[t("h2",i,r(s.title),1),t("div",l,[_(o.$slots,"default",{},void 0,!0)])]))}},h=a(p,[["__scopeId","data-v-80e3be30"]]);export{h as M};
