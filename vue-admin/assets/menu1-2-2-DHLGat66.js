@@ -1,1 +1,0 @@
-import{_ as t,c as o,o as n,d as c}from"./index-Dgrm1drA.js";import{E as r}from"./alert-CjrEsmod.js";const s={},a={style:{padding:"30px"}};function _(l,d){const e=r;return n(),o("div",a,[c(e,{closable:!1,title:"menu 1-2-2",type:"warning"})])}const p=t(s,[["render",_]]);export{p as default};

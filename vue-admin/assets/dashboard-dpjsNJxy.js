@@ -1,0 +1,1 @@
+import{R as e,Ut as t,_t as n,d as r,m as i}from"./runtime-core.esm-bundler-BcRkicpR.js";import{R as a,r as o}from"./index-DO7N4tVg.js";var s={class:`dashboard-container`},c={class:`dashboard-text`},l=a({__name:`dashboard`,setup(a){return(a,l)=>(e(),i(`div`,s,[r(`div`,c,`name: `+t(n(o).userInfo.name),1)]))}},[[`__scopeId`,`data-v-e2d700b2`]]);export{l as default};
