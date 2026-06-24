@@ -1,1 +1,0 @@
-import"./style-VoFpPn4J.js";import{R as e,m as t,y as n}from"./runtime-core.esm-bundler-BcRkicpR.js";import{t as r}from"./_plugin-vue_export-helper-BDNMzG2s.js";import{t as i}from"./style-CelSzHHk.js";var a={},o={style:{padding:`30px`}};function s(r,a){let s=i;return e(),t(`div`,o,[n(s,{closable:!1,title:`menu 2`})])}var c=r(a,[[`render`,s]]);export{c as default};
