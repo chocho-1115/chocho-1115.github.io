@@ -1,1 +1,0 @@
-import{R as e,m as t}from"./runtime-core.esm-bundler-C8GLRVeZ.js";import{s as n}from"./index-CI_tncdM.js";var r=[`innerHTML`],i=n({__name:`Markdown`,props:{htmlContent:{type:String,default:``}},setup(n){return(i,a)=>(e(),t(`div`,{class:`content`,innerHTML:n.htmlContent},null,8,r))}},[[`__scopeId`,`data-v-4e84b3e8`]]);export{i as t};
