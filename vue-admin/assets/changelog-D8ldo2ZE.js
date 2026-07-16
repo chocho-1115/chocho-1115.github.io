@@ -1,4 +1,4 @@
-import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-C8GLRVeZ.js";import{t as r}from"./Markdown-DcWRT7xh.js";var i=`<h1>变更记录</h1>
+import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-C8GLRVeZ.js";import{t as r}from"./Markdown-BI3JoNUY.js";var i=`<h1>变更记录</h1>
 <h3>暂未实现并且计划实现的功能</h3>
 <ul>
 <li>...</li>
@@ -10,6 +10,9 @@ import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-C8GLRVeZ.js";import
 <ul>
 <li>
 <p>...</p>
+</li>
+<li>
+<p>(2026-07-16): 配置GitHub Actions</p>
 </li>
 <li>
 <p>(2026-07-10): 更替过时的markdown依赖，确定markdown采用构建时预编译方案</p>
