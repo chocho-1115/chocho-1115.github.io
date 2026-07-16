@@ -1,0 +1,1 @@
+import"./style-BqRx-jpE.js";import{R as e,m as t,y as n}from"./runtime-core.esm-bundler-C8GLRVeZ.js";import{t as r}from"./style-DyAz_S2j.js";import{s as i}from"./index-BMWRq8E4.js";var a={},o={style:{padding:`30px`}};function s(i,a){let s=r;return e(),t(`div`,o,[n(s,{closable:!1,title:`menu 1-1`,type:`success`})])}var c=i(a,[[`render`,s]]);export{c as default};

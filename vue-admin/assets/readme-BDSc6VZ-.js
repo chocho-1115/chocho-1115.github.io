@@ -1,0 +1,66 @@
+import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-C8GLRVeZ.js";import{t as r}from"./Markdown-DcWRT7xh.js";var i=`<p align="center">
+    <a href="https://github.com/chocho-1115/vue-admin" target="_blank">
+        <img src="https://cn.vuejs.org/images/logo.png" width="100">
+    </a>
+</p>
+<p align="center">
+    <a href="https://github.com/vitejs/vite">
+        <img src="https://img.shields.io/badge/vite-8.1.0-brightgreen.svg">
+    </a>
+    <a href="https://github.com/vuejs/core">
+        <img src="https://img.shields.io/badge/vue-3.5.39-brightgreen.svg">
+    </a>
+    <a href="https://github.com/element-plus/element-plus">
+        <img src="https://img.shields.io/badge/elemnet--plus-2.14.2-brightgreen.svg">
+    </a>
+    <a href="https://github.com/axios/axios">
+        <img src="https://img.shields.io/badge/axios-1.18.1-brightgreen.svg">
+    </a>
+    <a href="https://github.com/mswjs/msw">
+        <img src="https://img.shields.io/badge/msw-2.14.6-brightgreen.svg">
+    </a>
+    <a href="https://github.com/faker-js/faker">
+        <img src="https://img.shields.io/badge/faker-10.5.0-brightgreen.svg">
+    </a>
+    <a href="https://github.com/chocho-1115/vue-admin">
+        <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg">
+    </a>
+</p>
+<h2>简介</h2>
+<p>本项目提供一个轻量级、UI极简的 Vue admin 后台，采用最新稳定依赖，减少升级维护成本，让开发者更专注于业务逻辑。</p>
+<p><strong>Demo:</strong> <a href="https://chocho-1115.github.io/vue-admin/">https://chocho-1115.github.io/vue-admin/</a></p>
+<blockquote>
+<p>[!NOTE]
+项目前期ui参考了 <a href="https://github.com/PanJiaChen/vue-admin-template">vue-admin-template</a></p>
+</blockquote>
+<h2>🎉 技术栈</h2>
+<p><strong>项目使用<a href="https://github.com/vuejs/create-vue">create-vue 3.x</a>从零开始创建，基于 <code>vite 8.x</code> 进行版本构建，建议 <a href="https://nodejs.org/">Node.js</a> 使用较新版本。</strong></p>
+<p>主要集成了以下技术栈：</p>
+<ul>
+<li>💪 <a href="https://vuejs.org/">vue3</a> + <a href="https://vite.dev/">vite8</a></li>
+<li>💅 <a href="https://router.vuejs.org/">vue-router</a></li>
+<li>💅 <a href="https://element-plus.org/zh-CN/">element plus</a></li>
+<li>🌍 <a href="https://mswjs.io/">mswjs</a> + <a href="https://fakerjs.dev/">fakerjs</a></li>
+<li>👏 <a href="http://www.axios-js.com/">axios</a></li>
+<li>🥳 <a href="https://sass-lang.com/">sass</a></li>
+<li>🚀 <a href="http://es6.ruanyifeng.com/">ES6</a></li>
+<li>📦️ <a href="https://icon-sets.iconify.design/ep/">element plus icon</a> + 自定义<a href="https://spiriitlabs.github.io/vite-plugin-svg-spritemap/">svg icon雪碧图</a>（建议优先使用element plus icon）</li>
+</ul>
+<h2>快速开始</h2>
+<h3>安装</h3>
+<pre><code># 克隆项目
+git clone https://github.com/chocho-1115/vue-admin.git
+
+# 进入项目目录
+cd vue-admin
+
+# 安装依赖
+npm install
+
+# 启动服务
+npm run dev
+</code></pre>
+<h2>License</h2>
+<p><a href="https://github.com/chocho-1115/vue-admin/blob/main/LICENSE">MIT</a></p>
+<p>Copyright (c) 2025 chocho-1115</p>
+`,a={__name:`readme`,setup(a){return(a,o)=>(e(),t(r,{htmlContent:n(i)},null,8,[`htmlContent`]))}};export{a as default};
