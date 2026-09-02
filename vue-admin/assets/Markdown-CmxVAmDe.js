@@ -1,0 +1,1 @@
+import{R as e,m as t}from"./runtime-core.esm-bundler-CpQGbZ0Q.js";import{s as n}from"./index-QukTml6f.js";var r=[`innerHTML`],i=n({__name:`Markdown`,props:{htmlContent:{type:String,default:``}},setup(n){return(i,a)=>(e(),t(`div`,{class:`content`,innerHTML:n.htmlContent},null,8,r))}},[[`__scopeId`,`data-v-4e84b3e8`]]);export{i as t};
