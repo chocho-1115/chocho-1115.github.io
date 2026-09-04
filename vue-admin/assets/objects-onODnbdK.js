@@ -1,0 +1,1 @@
+import{X as e,tt as t}from"./style-CKAL1QQe.js";function n(t,n,r){return t==null?t:e(t,n,r)}var r=e=>Object.keys(e),i=(e,r,i)=>({get value(){return t(e,r,i)},set value(t){n(e,r,t)}});export{r as n,i as t};
