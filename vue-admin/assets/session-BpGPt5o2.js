@@ -1,0 +1,1 @@
+import{a as e,i as t,o as n}from"./store-DgZUi5xm.js";var r=``,i={getStorage:t,setStorage:n,removeStorage:e,get(){return r},set(e){r=e},clear(){r=``}},a={roles:[],permissions:[],routes:[]},o={token:i,permission:{get(){return a},set(e){Object.assign(a,e)},clear(){a={roles:[],permissions:[],routes:[]}}}};export{o as t};
