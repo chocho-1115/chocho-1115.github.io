@@ -1,4 +1,4 @@
-import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-CpQGbZ0Q.js";import{t as r}from"./Markdown-DQ3KCmqb.js";var i=`<p align="center">
+import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-CpQGbZ0Q.js";import{t as r}from"./Markdown-DW5clAAJ.js";var i=`<p align="center">
     <a href="https://github.com/chocho-1115/vue-admin" target="_blank">
         <img src="https://cn.vuejs.org/images/logo.png" width="100">
     </a>
