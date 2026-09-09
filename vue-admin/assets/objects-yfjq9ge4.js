@@ -1,1 +1,0 @@
-import{I as e,j as t}from"./style-Dnf0xl9x.js";function n(e,n,r){return e==null?e:t(e,n,r)}var r=e=>Object.keys(e),i=(t,r,i)=>({get value(){return e(t,r,i)},set value(e){n(t,r,e)}});export{r as n,i as t};
