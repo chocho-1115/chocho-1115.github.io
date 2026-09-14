@@ -1,4 +1,4 @@
-import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-CpQGbZ0Q.js";import{t as r}from"./Markdown-BaHWKIIx.js";var i=`<p align="center">
+import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-CpQGbZ0Q.js";import{t as r}from"./Markdown-C5rn8soJ.js";var i=`<p align="center">
     <a href="https://github.com/chocho-1115/vue-admin" target="_blank">
         <img src="https://cn.vuejs.org/images/logo.png" width="100">
     </a>
@@ -32,10 +32,6 @@ import{R as e,f as t,vt as n}from"./runtime-core.esm-bundler-CpQGbZ0Q.js";import
 <h2>Introduction</h2>
 <p>A lightweight, minimalist Vue admin dashboard built with the latest stable dependencies, reducing upgrade and maintenance costs so developers can focus on business logic.</p>
 <p><strong>Demo:</strong> <a href="https://chocho-1115.github.io/vue-admin/">https://chocho-1115.github.io/vue-admin/</a></p>
-<blockquote>
-<p>[!NOTE]
-UI design is inspired by <a href="https://github.com/PanJiaChen/vue-admin-template">vue-admin-template</a></p>
-</blockquote>
 <h2>Why This Project?</h2>
 <p>The ideal frontend admin dashboard should be:</p>
 <ul>
