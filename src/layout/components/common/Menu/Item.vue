@@ -1,4 +1,5 @@
 <template>
+	<!-- Child Menu -->
 	<template v-if="!alwaysShow && theOnlyOneChild && !theOnlyOneChild.children">
 		<el-menu-item :index="resolvePath(theOnlyOneChild.path)" @click="onGotoPage(theOnlyOneChild)">
 			<template v-if="theOnlyOneChild.meta.icon">
@@ -18,12 +19,13 @@
 		</el-menu-item>
 	</template>
 
+	<!-- Parent Menu -->
 	<el-sub-menu
 		:index="resolvePath(info.path)"
 		popper-append-to-body
 		ref="subMenu"
 		popper-style="user-select: none;-webkit-tap-highlight-color: transparent;"
-		v-else
+		v-else-if="showingChildren.length > 0"
 	>
 		<template #title>
 			<template v-if="info.meta.icon">
@@ -44,19 +46,18 @@
 			:info="child"
 			:key="child.path"
 			class="nest-menu"
-			v-for="child in info.children"
+			v-for="child in showingChildren"
 		/>
 	</el-sub-menu>
 </template>
 
 <script setup>
-import path from "path-browserify-esm"
 import { useTemplateRef } from "vue"
 import { useRouter } from "vue-router"
 
 import { isExternal } from "@/common/validate"
-// import AppLink from './Link.vue'
-// import Item from './Item'
+import { hasRole } from "@/common/permission"
+import { joinPath } from "@/core/utils"
 
 const router = useRouter()
 // const ctx = inject('context')
@@ -78,11 +79,16 @@ const subMenu = useTemplateRef("subMenu")
 //   fixBugIniOS()
 // })
 
-/** 是否始终显示根菜单 */
+/**
+ * 是否始终显示父级菜单（取自路由 meta.alwaysShow）
+ * 仅当路由只有一个可见子菜单时才有区别：
+ * - false / 未设置：菜单被"拍平"，只渲染该子菜单项，不显示父级层级
+ * - true：强制保留父级，以 el-sub-menu 分组形式展示两级菜单
+ */
 const alwaysShow = props.info.meta?.alwaysShow
 
 /** 显示的子菜单 */
-const showingChildren = props.info.children?.filter((child) => !child.meta?.hidden) ?? []
+const showingChildren = props.info.children?.filter((child) => !child.meta?.hidden && hasRole(child.meta?.roles)) ?? []
 
 /** 唯一的子菜单项 */
 const theOnlyOneChild = (function () {
@@ -104,8 +110,7 @@ const resolvePath = (routePath) => {
 	if (isExternal(props.basePath)) {
 		return props.basePath
 	}
-	// return path.resolve(props.basePath, routePath)
-	return path.join(props.basePath, routePath)
+	return joinPath(props.basePath, routePath)
 }
 
 const onGotoPage = (child) => {

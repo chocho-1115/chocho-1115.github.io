@@ -19,10 +19,6 @@ body {
 		sans-serif;
 }
 
-label {
-	font-weight: 700;
-}
-
 html {
 	box-sizing: border-box;
 }
@@ -55,18 +51,7 @@ div:focus {
 	outline: none;
 }
 
-// .clearfix {
-//   &:after {
-//     visibility: hidden;
-//     display: block;
-//     font-size: 0;
-//     content: ' ';
-//     clear: both;
-//     height: 0;
-//   }
-// }
-
 // main-container global css
 .app-container {
-	padding: 20px;
+	padding: min(30px, 3vh) min(30px, 3vw);
 }

@@ -59,10 +59,7 @@ onUnmounted(() => {
 </script>
 
 <style lang="scss" scoped>
-// @use '@/styles/mixin.scss' as *;
-
 .app-wrapper {
-	// @include clearfix;
 	position: relative;
 	min-height: 100vh;
 	width: 100%;
@@ -74,6 +71,7 @@ onUnmounted(() => {
 	margin-left: var(--sidebar-width);
 	position: relative;
 	z-index: 1;
+	overflow: hidden; // 页面切换动画 & main的margin 都需要此样式
 }
 
 .sidebar {
@@ -148,13 +146,12 @@ main {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	// box-sizing: content-box;
 	z-index: 1;
 	// background: var(--el-bg-color-page);
 }
 
 .fixed-header + main {
-	padding-top: 50px;
+	margin-top: 50px;
 }
 
 .hasTagsView {
@@ -162,9 +159,8 @@ main {
 		/* 84 = navbar + tags-view = 50 + 34 */
 		min-height: calc(100vh - 84px);
 	}
-
 	.fixed-header + main {
-		padding-top: 84px;
+		margin-top: 84px;
 	}
 }
 </style>

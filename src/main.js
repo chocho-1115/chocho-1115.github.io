@@ -9,13 +9,15 @@ import "element-plus/theme-chalk/src/dark/css-vars.scss"
 import { createApp } from "vue"
 import App from "./App.vue"
 import router from "./router"
-import SvgIcon from "./components/SvgIcon.vue"
 import { ctx } from "./store"
-import { getTheme } from "@/store/storage"
-import "./permission"
+import { dispatch } from "@/store"
+
+// global components
+import SvgIcon from "./components/SvgIcon.vue"
+import ImgLoad from "./components/ImgLoad.vue"
 
 // set theme
-if (getTheme() === "dark") document.documentElement.classList.add("dark")
+dispatch.theme.init()
 
 async function enableMocking() {
   // if (import.meta.env.MODE !== 'development') {
@@ -33,12 +35,14 @@ async function enableMocking() {
 		},
 		// Decide how to react to unhandled requests (i.e. those that do not have a matching request handler).
 		// filter warnings
-		onUnhandledRequest(request, print) {
-			const url = new URL(request.url)
-			if (url.pathname.includes("/dev-api")) {
-				print.warning()
+		onUnhandledFrame({ frame, defaults }) {
+			if (frame.protocol === 'http') {
+				const url = new URL(frame.data.request.url)
+				if (url.pathname.includes('/dev-api')) {
+					defaults.warn()
+				}
 			}
-			return
+			// return
 		},
 	})
 }
@@ -51,6 +55,7 @@ enableMocking().then(async () => {
 
 	app.provide("context", ctx)
 	app.component("svg-icon", SvgIcon)
+	app.component("img-load", ImgLoad)
 
 	app.mount("#app")
 })
